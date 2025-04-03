@@ -11,11 +11,10 @@ int main(){
  
     cin >> N;
 
-    list<char>::iterator it;
+    list<char>::iterator it; // iterator란 무엇인가?
+    // list<char>::iterator it = password.begin(); // iterator를 사용하여 list의 요소에 접근할 수 있다.
     list<char> password;
     
-    
-
     for(int i = 0 ; i < N ; ++i){
         
         cin >> s;    
